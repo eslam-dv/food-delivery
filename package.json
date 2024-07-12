@@ -1,0 +1,14 @@
+{
+  "name": "food-del",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eslam-dv/food-delivery.git",
+  "author": "Eslam Osama <eslamebrahim1301@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d admin/dist client/dist"
+  }
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
