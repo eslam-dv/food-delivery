@@ -20,7 +20,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14' # Adjust node version as necessary
+        node-version: '20' # Adjust node version as necessary
 
     - name: Install dependencies
       run: cd ${{ matrix.app }} && npm install
