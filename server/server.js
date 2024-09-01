@@ -10,7 +10,7 @@ import orderRouter from "./routes/orderRoute.js";
 
 // express app config
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 4000;
 
 // middleware
 app.use(express.json());
@@ -31,7 +31,7 @@ app.get("/", (_, res) => {
 });
 
 app.listen(port, () => {
-	console.log(`Server running on prot: ${port}`);
+	console.log(`Server running on port: ${port}`);
 });
 
 export default app;
